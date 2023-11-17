@@ -1,6 +1,6 @@
 body {
-    background-image: url(https://cdn.freecodecamp.org/curriculum/css-cafe/beans.jpg);
-    font-family: sans-serif;
+    background-color: #b3b792;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     padding: 20px;
 }
 
@@ -13,18 +13,19 @@ h1 {
 h2 {
     font-size: 30px;
 }
-  
-.established {
+
+.subtitulo {
     font-style: italic;
+    color: #725c3a;
 }
-  
+
 h1, h2, p {
     text-align: center;
 }
-  
+
 .menu {
     width: 80%;
-    background-color: burlywood;
+    background-color: #e5e0d8;
     margin-left: auto;
     margin-right: auto;
     padding: 20px;
@@ -36,61 +37,63 @@ img {
     margin-left: auto;
     margin-right: auto;
     margin-top: -25px;
+    width: 40px;
 }
 
 hr {
     height: 2px;
-    background-color: brown;
-    border-color: brown;
+    background-color: #b3b792;
+    border-color: #b3b792;
 }
-  
-.bottom-line {
+
+.linha-baixo {
     margin-top: 25px;
 }
-  
+
 h1, h2 {
-    font-family: Impact, serif;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #809671;
 }
-  
+
 .item p {
     display: inline-block;
     margin-top: 5px;
     margin-bottom: 5px;
     font-size: 18px;
+    color: #725c3a;
 }
-  
-.flavor, .dessert {
+
+.sabor {
     text-align: left;
     width: 75%;
 }
-  
-.price {
+
+.preço {
     text-align: right;
     width: 25%;
 }
-  
-/* footer */
-  
+
 footer {
     font-size: 14px;
+    color: #725c3a;
 }
-  
-.address {
+
+.endereço {
     margin-bottom: 5px;
 }
-  
+
 a {
-    color: black;
+    color: #725c3a;
 }
-  
+
 a:visited {
-    color: black;
+    color: #725c3a;
 }
-  
+
 a:hover {
-    color: brown;
+    color: #809671;
 }
-  
+
 a:active {
-    color: brown;
+    color: #809671;
 }
